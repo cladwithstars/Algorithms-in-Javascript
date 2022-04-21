@@ -44,5 +44,5 @@ const sievePrimes2 = (n) => {
 console.log(isPrime(10));
 console.log(isPrime(17));
 console.log(isPrime(2));
-// console.log(sievePrimes2(100));
-// console.log(sievePrimes2(2));
+console.log(sievePrimes2(100));
+console.log(sievePrimes2(2));
