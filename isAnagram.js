@@ -2,8 +2,6 @@ const isAnagram = (s1, s2) => {
   return s1.split("").sort().join("") === s2.split("").sort().join("");
 };
 
-console.log(isAnagram("hi", "ih"));
-
 const isAnagram2 = (s1, s2) => {
   const map1 = {};
   const map2 = {};
@@ -24,3 +22,5 @@ const isAnagram2 = (s1, s2) => {
 
 console.log(isAnagram2("hello", "olelh"));
 console.log(isAnagram2("hey", "heyy"));
+
+module.exports = { isAnagram, isAnagram2 };

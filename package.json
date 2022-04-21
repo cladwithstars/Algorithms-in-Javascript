@@ -1,0 +1,22 @@
+{
+  "name": "algorithms-in-javascript",
+  "version": "1.0.0",
+  "description": "Coding problems in Javascript. From leetcode and elsewhere.",
+  "main": "arrayChunking.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morgan88will/Algorithms-in-Javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morgan88will/Algorithms-in-Javascript/issues"
+  },
+  "homepage": "https://github.com/morgan88will/Algorithms-in-Javascript#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
