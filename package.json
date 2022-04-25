@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/morgan88will/Algorithms-in-Javascript#readme",
   "dependencies": {
+    "chai": "^4.3.6",
     "jest": "^27.5.1"
   }
 }
