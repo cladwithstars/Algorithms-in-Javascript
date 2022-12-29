@@ -1,4 +1,6 @@
 const deepEquals = (val1, val2) => {
+  // alternatively we can do JSON.stringify(val1) === JSON.stringify(val2); but there will be a couple bugs here with NaN for example
+
   if (val1 === val2) return true;
 
   // CASE: two primitve values
@@ -14,8 +16,7 @@ const deepEquals = (val1, val2) => {
   )
     return false;
 
-  // CASE: null
-  if (val1 === null && val2 === null) return true;
+  // CASE: one null value
   if (val1 === null || val2 === null) return false;
 
   // CASE: only one value is an array

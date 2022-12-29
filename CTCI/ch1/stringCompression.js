@@ -8,7 +8,7 @@ const compressString = (s) => {
       conseqCharsCount++;
       i++;
     }
-    res = res + `${currChar}${conseqCharsCount}`;
+    res += `${currChar}${conseqCharsCount}`;
     i++;
   }
   return res;
